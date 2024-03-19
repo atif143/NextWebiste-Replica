@@ -133,6 +133,10 @@ padding-top: 20px;
 
 .menu a:hover {
     color: #f39c12;
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    color: #000;
 }
 
 
