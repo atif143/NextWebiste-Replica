@@ -497,3 +497,10 @@ width: 100%;
   text-decoration: underline;
   color: #000;
 }
+
+.DesignedBy
+{
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
