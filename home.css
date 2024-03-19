@@ -254,3 +254,242 @@ border-radius: 100%;
 .catageoriesround a:hover{
   text-decoration: underline;
 }
+
+.slider-area  {
+  margin-top: 10px;
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+  gap:50px
+}
+.item img{
+  width: 150px ;
+}
+.item img:hover{
+  scale: 120%;
+  opacity: 70%;
+}
+.item {
+	animation: animate 25s alternate linear infinite;
+}
+
+
+@keyframes animate {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-1100px, 0, 0);
+	}
+}
+@media (max-width:767px) {
+	.slider-area h2 {
+		font-size: 30px;
+	}
+	.wrapper {
+		width: 95%;
+		border-radius: 0;
+		padding: 0;
+	}
+}
+
+
+.WaytoWear 
+{
+  position: relative;
+}
+.WaytoWear img
+{
+  position: relative;
+  width: 100%;
+}
+
+.WaytoWearText
+{
+  position: absolute;
+  bottom: 80px;
+  left: 700px;
+  color: #ebebeb;
+  font-size: small;
+}
+
+.WaytoWearText a{
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+.news h4{
+  font-style:normal
+  font-weight:500;
+}
+
+
+.news
+{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.news img
+{
+  width: 100%;
+}
+
+.news {
+  position: relative;
+}
+.newsText
+{
+  position: absolute;
+  bottom: -30px;
+  color: black;
+}
+.news a{
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+.bottomText
+{
+  font-weight:300;
+font-size: small;
+text-align: center;
+}
+
+.be-in-the-know {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.be-in-the-know p {
+  margin-bottom: 10px;
+}
+
+.be-in-the-know form {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.be-in-the-know input[type="email"] {
+  width: 250px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.be-in-the-know button[type="submit"] {
+  padding: 10px 50px;
+  font-size: 14px;
+  background-color: rgb(1, 136, 136);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.be-in-the-know button[type="submit"]:hover {
+  background-color: rgb(0, 96, 96);
+}
+
+.socials
+{
+text-align: center;
+gap: 400px;
+}
+
+.socials h3{
+  font-weight: 300;
+}
+
+
+.footertop {
+  display: flex;
+  background-color: rgb(247, 247, 247);
+  color: black;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  
+ }
+
+
+.footertopContent
+{
+padding-left: 60px;
+  width: 25%;
+}
+
+.footertop a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.footertop a:hover{
+  text-decoration: underline black;
+}
+
+.footertop a ul{
+  text-decoration: none;
+     
+  margin-left:-20px ;
+}
+
+.footertop a ul h4{
+  font-size: small;
+  font-weight: 600;
+  color: #000000;
+}
+
+.footertop a ul h5{
+  font-size: small;
+  font-weight: 500;
+  color: #2c2b2b;
+margin-top: -15px;
+text-align: left;
+}
+.footertop a img{
+  width: 7%;
+  height: 7%;
+}
+
+.footer{
+  display: flex;
+align-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+gap: 50px;
+background-color: rgb(247, 247, 247);
+
+}
+
+.footerContent {
+  align-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+.footerContent a
+{
+  text-decoration: none;
+  color: #000;
+}
+
+.footerContent a:hover
+{
+  text-decoration: underline;
+  color: #000;
+}
